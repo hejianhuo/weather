@@ -1,0 +1,66 @@
+/**index.wxss**/
+
+page {
+  height: 100%;
+}
+
+.content {
+  font-family: 微软雅黑, 宋体;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  color: #fff;
+}
+
+.today {
+  height: 40%;
+}
+
+.info {
+  height: 100%;
+  padding: 40rpx;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.city {
+  font-size: 16px;
+  text-align: right;
+  margin: 30rpx 10rpx 0 0;
+}
+
+.temp {
+  font-size: 50px;
+  text-align: center;
+}
+
+.weather {
+  text-align: center;
+  font-size: 16px;
+  margin: 10rpx;
+}
+
+.hint {
+  line-height: 20px;
+}
+
+.future {
+  height: 40%;
+  display: flex;
+  flex-direction: row;
+  margin: 100rpx 0;
+  text-align: center;
+  padding: 20rpx 10rpx;
+}
+.future-item{
+  min-height: 100%;
+  width: 165rpx;
+  border: 1px solid coral;
+  border-radius: 10rpx;
+  margin: 10rpx;
+  background: rgba(0, 0, 0, 0.1);
+}
+.future-item view{
+  margin: 5px;
+}
